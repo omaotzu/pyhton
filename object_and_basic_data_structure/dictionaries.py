@@ -38,3 +38,13 @@ obj['obj'] ={
 # to access this you can string the square brackets together to get this
 
 print(obj['obj']['third']['embebbedd1']) #which prints its value 'first embedded'
+
+#you can also print all the values or keys that are with a dictionary as follows
+
+print(obj.keys())
+print(obj.values())
+
+#you cant sort dictionaries though!!
+
+
+print(obj.items())
